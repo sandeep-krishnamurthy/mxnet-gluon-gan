@@ -1,5 +1,7 @@
 # Apache MXNet Gluon - Generative Adversarial Networks (GAN)
-Collection of implementation of the state of the art (SOTA) GAN networks with Apache MXNet GLUON.
+Collection of Jupyter Notebooks with Apache MXNet GLUON implementation of various standard GAN papers.
+
+**Note:** At this point of time, this repo may be used as reference implementations only. Hyperparameters, and various other factors are not fully tuned. Accuracies/any metric claimed in paper may NOT be exactly reflected with this implementations.
 
 # Prerequisites
 ```
@@ -9,7 +11,7 @@ pip install mxnet-cu90mkl # For GPU machines
 
 # GAN Networks
 
-|Sl. No. | Title | Paper  | Code  |
+| No. | Title | Paper  | Code  |
 |---|---|---|---|
 |  1 | Generative Adversarial Networks (GAN)  | https://arxiv.org/abs/1406.2661  | [GAN](https://github.com/sandeep-krishnamurthy/mxnet-gluon-gan/tree/master/gan)  |
 | 2  | Deep Convolutional GAN (DCGAN)  | https://arxiv.org/abs/1511.06434  | TODO  |
